@@ -1,0 +1,273 @@
+[
+  {
+    "question_id": "Q01",
+    "question": "Which online thesaurus is the mouse lemma and sense example modified from?",
+    "question_type": "factual",
+    "is_answerable": true,
+    "expected_answer": "WordNet",
+    "expected_pages": [4],
+    "verification_note": "Page 4: 'Modified from the online thesaurus WordNet'"
+  },
+  {
+    "question_id": "Q02",
+    "question": "What dataset by Hill et al. (2015) measures how similar two words are?",
+    "question_type": "factual",
+    "is_answerable": true,
+    "expected_answer": "SimLex-999",
+    "expected_pages": [11],
+    "verification_note": "Page 11: 'SimLex-999 dataset (Hill et al., 2015)'"
+  },
+  {
+    "question_id": "Q03",
+    "question": "Who stated that the meaning of a word is its use in the language?",
+    "question_type": "factual",
+    "is_answerable": true,
+    "expected_answer": "Ludwig Wittgenstein",
+    "expected_pages": [21],
+    "verification_note": "Page 21: 'Ludwig Wittgenstein PI #43: \"The meaning of a word is its use in the language\"'"
+  },
+  {
+    "question_id": "Q04",
+    "question": "What does the English borrowing ongchoi mean?",
+    "question_type": "factual",
+    "is_answerable": true,
+    "expected_answer": "Water Spinach",
+    "expected_pages": [23, 24],
+    "verification_note": "Page 24: 'Ongchoi: Ipomoea aquatica \"Water Spinach\"'"
+  },
+  {
+    "question_id": "Q05",
+    "question": "What are the three affective dimensions of connotation proposed by Osgood et al.?",
+    "question_type": "factual",
+    "is_answerable": true,
+    "expected_answer": "valence: pleasantness ◦arousal: intensity of emotion ◦dominance: the degree of control exerted",
+    "expected_pages": [16, 26],
+    "verification_note": "Pages 16 & 26: '3 affective dimensions for a word ◦valence: pleasantness ◦arousal: intensity of emotion ◦dominance: the degree of control exerted'"
+  },
+  {
+    "question_id": "Q06",
+    "question": "What is the typical length of short dense word vectors?",
+    "question_type": "factual",
+    "is_answerable": true,
+    "expected_answer": "50-1000",
+    "expected_pages": [55],
+    "verification_note": "Page 55: 'Alternative: learn vectors which are ◦short (length 50-1000)'"
+  },
+  {
+    "question_id": "Q07",
+    "question": "What special case of Singular Value Decomposition (SVD) is used for getting short dense vectors?",
+    "question_type": "factual",
+    "is_answerable": true,
+    "expected_answer": "LSA – Latent Semantic Analysis",
+    "expected_pages": [57],
+    "verification_note": "Page 57: 'Singular Value Decomposition (SVD) ◦A special case of this is called LSA – Latent Semantic Analysis'"
+  },
+  {
+    "question_id": "Q08",
+    "question": "Which mathematical function from logistic regression does Word2vec use to turn dot products into probabilities?",
+    "question_type": "factual",
+    "is_answerable": true,
+    "expected_answer": "sigmoid",
+    "expected_pages": [65],
+    "verification_note": "Page 65: 'We'll use the sigmoid from logistic regression'"
+  },
+  {
+    "question_id": "Q09",
+    "question": "What are the two sets of embeddings learned by Skip-gram with Negative Sampling (SGNS)?",
+    "question_type": "factual",
+    "is_answerable": true,
+    "expected_answer": "Target embeddings matrix W Context embedding matrix C",
+    "expected_pages": [81],
+    "verification_note": "Page 81: 'SGNS learns two sets of embeddings Target embeddings matrix W Context embedding matrix C'"
+  },
+  {
+    "question_id": "Q10",
+    "question": "What can Feedforward Neural Networks also be called for historical reasons?",
+    "question_type": "factual",
+    "is_answerable": true,
+    "expected_answer": "multi-layer perceptrons",
+    "expected_pages": [85],
+    "verification_note": "Page 85: 'Feedforward Neural Networks Can also be called multi-layer perceptrons (or MLPs) for historical reasons'"
+  },
+  {
+    "question_id": "Q11",
+    "question": "What activation functions can be used in the hidden units of a two-layer network?",
+    "question_type": "factual",
+    "is_answerable": true,
+    "expected_answer": "ReLU Or tanh",
+    "expected_pages": [89, 91, 92, 93, 148],
+    "verification_note": "Pages 89, 91, 92: 'hidden units (σ node) ... Could be ReLU Or tanh'; Page 148: 'Sigmoid activation ReLU activation'"
+  },
+  {
+    "question_id": "Q12",
+    "question": "What is the shape of an embedding matrix E for a vocabulary V and dimension d?",
+    "question_type": "factual",
+    "is_answerable": true,
+    "expected_answer": "[|V| × d]",
+    "expected_pages": [113],
+    "verification_note": "Page 113: 'E has shape [|V| × d]'"
+  },
+  {
+    "question_id": "Q13",
+    "question": "How do simple feedforward neural language models handle sequences of arbitrary length?",
+    "question_type": "factual",
+    "is_answerable": true,
+    "expected_answer": "Sliding windows (of fixed length)",
+    "expected_pages": [123],
+    "verification_note": "Page 123: 'Problem: Now we’re dealing with sequences of arbitrary length. Solution: Sliding windows (of fixed length)'"
+  },
+  {
+    "question_id": "Q14",
+    "question": "What loss function is used for binary logistic regression?",
+    "question_type": "factual",
+    "is_answerable": true,
+    "expected_answer": "Cross entropy",
+    "expected_pages": [131],
+    "verification_note": "Page 131: 'Cross entropy loss for logistic regression:'"
+  },
+  {
+    "question_id": "Q15",
+    "question": "Who introduced error backpropagation in 1986?",
+    "question_type": "factual",
+    "is_answerable": true,
+    "expected_answer": "Rumelhart, Hinton, Williams",
+    "expected_pages": [137],
+    "verification_note": "Page 137: 'Solution: error backpropagation (Rumelhart, Hinton, Williams, 1986)'"
+  },
+  {
+    "question_id": "Q16",
+    "question": "What is a sense or concept in lexical semantics?",
+    "question_type": "descriptive",
+    "is_answerable": true,
+    "expected_answer": "A sense or “concept” is the meaning component of a word",
+    "expected_pages": [4],
+    "verification_note": "Page 4: 'A sense or “concept” is the meaning component of a word'"
+  },
+  {
+    "question_id": "Q17",
+    "question": "Explain the Linguistic Principle of Contrast.",
+    "question_type": "descriptive",
+    "is_answerable": true,
+    "expected_answer": "Difference in form à difference in meaning",
+    "expected_pages": [8],
+    "verification_note": "Page 8: 'The Linguistic Principle of Contrast Difference in form à difference in meaning'"
+  },
+  {
+    "question_id": "Q18",
+    "question": "How does Zellig Harris (1954) define synonyms in terms of word environments?",
+    "question_type": "descriptive",
+    "is_answerable": true,
+    "expected_answer": "If A and B have almost identical environments we say that they are synonyms.",
+    "expected_pages": [22],
+    "verification_note": "Page 22: 'Zellig Harris (1954): If A and B have almost identical environments we say that they are synonyms.'"
+  },
+  {
+    "question_id": "Q19",
+    "question": "What do each row and each column represent in a word-context co-occurrence matrix?",
+    "question_type": "descriptive",
+    "is_answerable": true,
+    "expected_answer": "each row represents a word in the vocabulary ◦each column represents how often each other word in the vocabulary appears nearby",
+    "expected_pages": [35, 41],
+    "verification_note": "Page 35: 'Word-context matrix (a kind of co-occurrence matrix) ◦each row represents a word in the vocabulary ◦each column represents how often each other word in the vocabulary appears nearby'"
+  },
+  {
+    "question_id": "Q20",
+    "question": "Why is raw dot-product problematic for computing word similarity?",
+    "question_type": "descriptive",
+    "is_answerable": true,
+    "expected_answer": "Dot product favors long vectors Dot product is higher if a vector is longer (has higher values in many dimension) Vector length: Frequent words (of, the, you) have long vectors (since they occur many times with other words). So dot product overly favors frequent words",
+    "expected_pages": [48],
+    "verification_note": "Page 48: 'Problem with raw dot-product Dot product favors long vectors ... So dot product overly favors frequent words'"
+  },
+  {
+    "question_id": "Q21",
+    "question": "Why are short dense vectors preferred over sparse count vectors in machine learning?",
+    "question_type": "descriptive",
+    "is_answerable": true,
+    "expected_answer": "Short vectors may be easier to use as features in machine learning (fewer weights to tune) ◦Dense vectors may generalize better than explicit counts ◦Dense vectors may do better at capturing synonymy",
+    "expected_pages": [55, 56],
+    "verification_note": "Page 56: 'Why dense vectors? ◦Short vectors may be easier to use as features in machine learning (fewer weights to tune) ◦Dense vectors may generalize better than explicit counts ◦Dense vectors may do better at capturing synonymy'"
+  },
+  {
+    "question_id": "Q22",
+    "question": "Explain how Word2Vec skip-gram embeddings are learned from random initialization.",
+    "question_type": "descriptive",
+    "is_answerable": true,
+    "expected_answer": "Start with V random d-dimensional vectors as initial embeddings Train a classifier based on embedding similarity ◦Take a corpus and take pairs of words that co-occur as positive examples ◦Take pairs of words that don't co-occur as negative examples",
+    "expected_pages": [61, 82],
+    "verification_note": "Page 82: 'Summary: How to learn word2vec (skip-gram) embeddings Start with V random d-dimensional vectors as initial embeddings Train a classifier based on embedding similarity...'"
+  },
+  {
+    "question_id": "Q23",
+    "question": "Explain the architecture of a feedforward neural network, identifying input, hidden and output layers. (06 Marks)",
+    "question_type": "descriptive",
+    "is_answerable": true,
+    "expected_answer": "Feedforward Neural Networks Can also be called multi-layer perceptrons (or MLPs) for historical reasons; hidden units (σ node) Input layer (vector) Output layer (σ node) Could be ReLU Or tanh",
+    "expected_pages": [85, 89, 90, 91, 92, 107, 124, 130],
+    "verification_note": "Pages 85, 89-92, 107, 124, 130: Multi-layer perceptron structure with Input layer, Hidden layer/units, and Output layer"
+  },
+  {
+    "question_id": "Q24",
+    "question": "Explain why adding a hidden layer to logistic regression is useful in feedforward nets for simple classification.",
+    "question_type": "descriptive",
+    "is_answerable": true,
+    "expected_answer": "allows the network to use non-linear interactions between features • which may (or may not) improve performance.",
+    "expected_pages": [103],
+    "verification_note": "Page 103: 'Just adding a hidden layer to logistic regression • allows the network to use non-linear interactions between features • which may (or may not) improve performance.'"
+  },
+  {
+    "question_id": "Q25",
+    "question": "What is a computation graph?",
+    "question_type": "descriptive",
+    "is_answerable": true,
+    "expected_answer": "A computation graph represents the process of computing a mathematical expression",
+    "expected_pages": [138],
+    "verification_note": "Page 138: 'Computation Graphs A computation graph represents the process of computing a mathematical expression'"
+  },
+  {
+    "question_id": "Q26",
+    "question": "Who won the 2022 FIFA World Cup in Qatar?",
+    "question_type": "unanswerable",
+    "is_answerable": false,
+    "expected_answer": "",
+    "expected_pages": [],
+    "verification_note": "Out-of-domain sports trivia not present in the 156-page NLP slide deck"
+  },
+  {
+    "question_id": "Q27",
+    "question": "What is the chemical boiling point of liquid nitrogen in degrees Celsius?",
+    "question_type": "unanswerable",
+    "is_answerable": false,
+    "expected_answer": "",
+    "expected_pages": [],
+    "verification_note": "Out-of-domain chemistry question not present in the 156-page NLP slide deck"
+  },
+  {
+    "question_id": "Q28",
+    "question": "How many chromosomes are present in a diploid human cell?",
+    "question_type": "unanswerable",
+    "is_answerable": false,
+    "expected_answer": "",
+    "expected_pages": [],
+    "verification_note": "Out-of-domain biology question not present in the 156-page NLP slide deck"
+  },
+  {
+    "question_id": "Q29",
+    "question": "Which programming language was created by Guido van Rossum in 1991?",
+    "question_type": "unanswerable",
+    "is_answerable": false,
+    "expected_answer": "",
+    "expected_pages": [],
+    "verification_note": "Out-of-domain programming history question not present in the 156-page NLP slide deck"
+  },
+  {
+    "question_id": "Q30",
+    "question": "What is the current population of Tokyo, Japan?",
+    "question_type": "unanswerable",
+    "is_answerable": false,
+    "expected_answer": "",
+    "expected_pages": [],
+    "verification_note": "Out-of-domain geography question not present in the 156-page NLP slide deck"
+  }
+]
+

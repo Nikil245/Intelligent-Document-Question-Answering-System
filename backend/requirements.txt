@@ -19,6 +19,7 @@ numpy>=1.26
 # PDF processing
 PyMuPDF>=1.24.3              # imported as "pymupdf" (older code used "fitz")
 
-# Testing
+# Testing & Evaluation
 pytest>=8.0
 httpx>=0.27                  # required by FastAPI's TestClient
+matplotlib>=3.9              # evaluation charts
