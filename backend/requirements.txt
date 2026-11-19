@@ -1,0 +1,24 @@
+# Tested with: Python 3.12, fastapi 0.165, torch 2.15 (CUDA 13.2 build),
+# transformers 4.57.6, scikit-learn 1.9.1, PyMuPDF 2.1, pytest 9.2
+
+# Web framework / server
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9      # required by FastAPI for multipart file uploads
+pydantic>=2.6
+pydantic-settings>=2.2       # loads configuration from environment / .env
+
+# NLP / ML
+torch>=2.2                   # on Linux, pip installs the CUDA build by default
+# transformers 5.x REMOVED the "question-answering" pipeline, which this
+# project requires, so stay on the 4.x series.
+transformers>=4.40,<5
+scikit-learn>=1.4            # TF-IDF + cosine similarity retrieval
+numpy>=1.26
+
+# PDF processing
+PyMuPDF>=1.24.3              # imported as "pymupdf" (older code used "fitz")
+
+# Testing
+pytest>=8.0
+httpx>=0.27                  # required by FastAPI's TestClient
